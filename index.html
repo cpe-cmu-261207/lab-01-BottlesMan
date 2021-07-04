@@ -1,13 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Profile Website</title>
+  <title>My Resume</title>
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-  
+
+<body class="bg-green-300 bg-fixed m-8">
+  <div class="space-y-8">
+    <!--nav bar-->
+    <div class="bg-gray-200 border-4 rounded-full p-4 mb-4">
+      <div class="bg-gray-200 flex justify-between">
+        <p class="text-gray-800 font-semibold text-2xl">MyREsume</p>
+        <div class="flex space-x-7">
+          <a class="text-yellow-600 font-semibold text-lg" href="index.html">Home</a>
+          <a class="text-yellow-600 font-semibold text-lg">Experience</a>
+          <a class="text-yellow-600 font-semibold text-lg">Contract</a>
+        </div>
+      </div>
+    </div>
+    <!--text box-->
+    <div class="bg-gray-200 p-4 shadow-lg rounded-xl ring-1 ring-grey-500">
+      <div class="flex p-4">
+        <img class="w-40 h-40 rounded-full" src="profile.jpg">
+        <div class="p-4">
+          <p class="font-semibold text-red-600 text-xl">Nadtaphong Jandaboot</p>
+          <p class="font-semibold text-gray"> Hi! my name is Nadtaphong. I'm currently a student at Chiangmai
+            University. Computer Engineering is my faculty. I'm interested in media art and also wanted to learn programming. </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
 </body>
+
 </html>
